@@ -1,0 +1,15 @@
+
+phidata>=2.4.0              # Core framework
+openai>=1.6.0               # LLM providers (pick what you use)
+tiktoken>=0.5.2             # Embeddings & RAG utilities
+numpy>=1.26.0
+sqlalchemy>=2.0.25          # Database / pgvector
+psycopg2-binary>=2.9.9
+pgvector>=0.2.4
+python-dotenv>=1.0.0        # Environment & config
+asyncio                     # Async / concurrency (agents)
+aiohttp>=3.9.1
+loguru>=0.7.2               # Logging & observability
+pydantic>=2.5.2             # Utilities
+tenacity>=8.2.3
+rich>=13.7.0

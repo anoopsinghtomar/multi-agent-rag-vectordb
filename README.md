@@ -3,7 +3,6 @@
 An **agentic, multi-vector Retrieval-Augmented Generation (RAG) system** built with **phidata** and **pgvector**.
 
 This repository demonstrates how multiple AI agents can collaboratively retrieve, reason, and generate responses over structured and unstructured data using PostgreSQL as the vector store.
-
 ---
 
 ## ✨ Features
@@ -60,3 +59,7 @@ Each agent has a focused responsibility, enabling better reasoning, debuggabilit
 ├── config/ # Model and database configuration
 ├── scripts/ # Setup and utility scripts
 └── main.py # Entry point
+```
+
+https://www.agno.com/
+---
