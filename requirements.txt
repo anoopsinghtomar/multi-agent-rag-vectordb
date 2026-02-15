@@ -2,6 +2,7 @@
 phidata>=2.4.0              # Core framework
 openai>=1.6.0               # LLM providers (pick what you use)
 tiktoken>=0.5.2             # Embeddings & RAG utilities
+groq>=0.9.0
 numpy>=1.26.0
 sqlalchemy>=2.0.25          # Database / pgvector
 psycopg2-binary>=2.9.9
@@ -19,4 +20,6 @@ duckduckgo-search>=2.6.0      # Search engine integration
 fastapi>=0.100.0           # API framework
 uvicorn[standard]>=0.23.2   # ASGI server
 python-multipart>=0.0.6     # File uploads
-grokking>=0.3.6             # Text parsing utilities
+grokking==0.0.7             # Text parsing utilities
+psycopg[binary]>=2.9.9     # PostgreSQL driver
+chromadb>=0.3.21              # Vector database
