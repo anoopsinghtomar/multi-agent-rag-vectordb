@@ -23,3 +23,9 @@ python-multipart>=0.0.6     # File uploads
 grokking==0.0.7             # Text parsing utilities
 psycopg[binary]>=2.9.9     # PostgreSQL driver
 chromadb>=0.3.21              # Vector database
+
+authlib>=1.3.0          # OAuth support
+prometheus-client>=0.19.0  # Metrics & monitoring
+pytest>=7.2.0             # Testing framework
+sentence-transformers>=2.3.0   # Local embeddings
+fake-useragent>=1.5.0  # Web scraping support
